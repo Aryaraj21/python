@@ -46,5 +46,19 @@ else:
     print(largest,"Largest",smallest,"smallest")
     
 
+def even():
+    a=int(input("enter your number:"))
+    if a%2==0:
+        print("it is even")
+    else:
+        print("it is oddd")
+
+even()
+
+age=int(input("Enter the age of a person:"))
+if age<18:
+    print("the person is minor")
+else:
+    print("the person is major")
 
 
